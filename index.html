@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" media="all">
+  
+  <link rel="stylesheet" href="/horizontal.css" media="screen and (orientation: landscape">
+  
+  <link rel="stylesheet" href="/pc.css" media="screen and (min-width: 850px">
+</head>
+
+<body>
+  <main>
+  <section>
+  
+    <div id="foto">
+      
+    </div>
+    
+    <div id="login">
+      <h1>login</h1>
+      <p>seja bem vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente</p>
+      
+      <form action="main.js" method="POST" autocomplete="on">
+        
+      <div class="campo">
+         <span class="material-symbols-outlined" onclick="clickMenu()">person</span>
+          
+       <input type="email" name="login" id="ilogin" required placeholder="seu e-mail" maxlength="30" autocomplete="email">
+         <label for="ilogin">login</label>
+      </div>
+       
+      <div class="campo">
+        <span class="material-symbols-outlined" onclick="clickMenu()">vpn_key</span>
+        
+        <input type="password" name="senha" id="isenha" required placeholder="sua senha" maxlength="20"  minlength="5"  autocomplete="current-password"> 
+        <label for="isenha">senha</label>
+      </div>
+
+        <input type="submit" value="enviar">
+
+        <a href="#" class="botao" >esqueci a senha <span class="material-symbols-outlined" onclick="clickMenu()">mail</span></a>
+      </form>
+    </div>
+  </section>
+  
+  </main>
+  
+  
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
